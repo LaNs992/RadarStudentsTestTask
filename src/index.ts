@@ -19,7 +19,7 @@ const N = 100;
 
 const ARRAY_OF_UNIQUE_VALUES = getArrayOfUniqueValues(N);
 const start = new Date().getTime();
-const result = getRandomElements(ARRAY_OF_UNIQUE_VALUES, 500000 /*5*/); //измениено коллочиесвто
+const result = getRandomElements(ARRAY_OF_UNIQUE_VALUES, 5 /*500000*/); //измениено коллочиесвто
 const end = new Date().getTime(); //для просмотра на затрату времеени функцией
 console.log('Время выполнения :', end - start);
 console.log(result);
